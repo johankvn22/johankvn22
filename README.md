@@ -22,7 +22,7 @@ I am dedicating myself to find new experiences and learn a lot from my environme
 
 
 ## 🔗 Links
-[![portfolio]([https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/johankvn22?tab=overview&from=2024-05-01&to=2024-05-31](https://johankvn22.my.canva.site/))
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://johankvn22.my.canva.site/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johan-kevin-kenneth-hutagalung-402597243/)
 ## 🛠 Skills
 - HTML, CSS, JavaScript
