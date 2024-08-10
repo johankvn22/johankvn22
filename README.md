@@ -1,7 +1,3 @@
-
-# Portofolio 
-
-
 ## HI, I'm Johan Kevin Kenneth Hutagalung
 
 I am 6th semester student of Jakarta State Polytechnic (PNJ) and graduate of (CEP-CCIT FTUI) who are passionate in web and Android development. I have experience with Java, Kotlin, HTML, and SQL. Have a strong analytical mindset and deep understanding of programing concept. 
