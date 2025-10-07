@@ -88,4 +88,19 @@ A mobile app that helps identify dyslexia symptoms using **Kotlin** and **Fireba
 
 ---
 
-## 🏆 Highlig
+## 🏆 Highlights
+- 🎓 **GPA 3.57** — Informatics Engineering Graduate, PNJ  
+- 💡 Final Project Developer — Internship Management System (CodeIgniter + MySQL)  
+- 🧩 Web Developer Intern — WordPress Customization & Optimization  
+- 🧰 IT Support Intern — Maintenance & Database Reporting  
+
+---
+
+## ⚡ Fun Fact
+When I’m not coding, you’ll probably find me **playing games**, exploring new maps, or strategizing my next big win 🎮😉
+
+---
+
+<p align="center">
+  ⭐ <i>“Keep building, stay curious, and never stop learning.”</i> ⭐
+</p>
