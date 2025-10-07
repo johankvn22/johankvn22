@@ -46,7 +46,7 @@ A web-based system built with **PHP (CodeIgniter 4)** and **MySQL** to manage in
 💡 Roles: System Analyst, Backend Developer, Documentation Lead  
 
 📸 **Preview Dashboard:**  
-<img src="/magang_dashboard1.png" width="400"> <img src="screenshots/magang_dashboard2.png" width="400"> <img src="screenshots/magang_dashboard3.png" width="400">
+<img src="/magang_dashboard1.png" width="400"> <img src="/magang_dashboard2.png" width="400"> <img src="/magang_dashboard3.png" width="400">
 
 ---
 
@@ -56,7 +56,7 @@ A mobile app that helps identify dyslexia symptoms using **Kotlin** and **Fireba
 - Integrated OCR and camera features  
 
 📸 **App Preview:**  
-<img src="screenshots/dyslexiascanner1.png" width="250"> <img src="screenshots/dyslexiascanner2.png" width="250"> <img src="screenshots/dyslexiascanner3.png" width="250">
+<img src="/dyslexiascanner1.png" width="250"> <img src="/dyslexiascanner2.png" width="250"> <img src="/dyslexiascanner3.png" width="250">
 
 ---
 
@@ -68,7 +68,7 @@ A mobile app that helps identify dyslexia symptoms using **Kotlin** and **Fireba
 - Collaborated with the content team to ensure responsive and optimized design.  
 
 📸 **Dashboard Preview:**  
-<img src="screenshots/msib_dashboard.png" width="700">
+<img src="/msib_dashboard.png" width="700">
 
 ---
 
@@ -78,7 +78,7 @@ A mobile app that helps identify dyslexia symptoms using **Kotlin** and **Fireba
 - Inputted product and maintenance reports into company databases.  
 
 📸 **Activity Photo:**  
-<img src="screenshots/it_support_activity.png" width="700">
+<img src="/it_support_activity.png" width="700">
 
 ---
 
