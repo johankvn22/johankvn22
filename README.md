@@ -46,7 +46,7 @@ A web-based system built with **PHP (CodeIgniter 4)** and **MySQL** to manage in
 💡 Roles: System Analyst, Backend Developer, Documentation Lead  
 
 📸 **Preview Dashboard:**  
-<img src="johankvn22/magang_dashboard1.png" width="400"> <img src="johankvn22/magang_dashboard2.png" width="400"> <img src="johankvn22/magang_dashboard3.png" width="400">
+<img src="screenshots/magang_dashboard1.png" width="400"> <img src="screenshots/magang_dashboard2.png" width="400"> <img src="screenshots/magang_dashboard3.png" width="400">
 
 ---
 
