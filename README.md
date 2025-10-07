@@ -49,7 +49,7 @@ A web-based system built with **PHP (CodeIgniter 4)** and **MySQL** to manage in
 🌐 **Live Demo:** [wwgi.42web.io](https://wwgi.42web.io/index.php/login)
 
 📸 **Preview Dashboard:**  
-<img src="/magang_dashboard1.png" width="400"> <img src="/magang_dashboard2.png" width="400"> <img src="/magang_dashboard3.png" width="400">
+<img src="/magang_dashboard1.png" width="700"> <img src="/magang_dashboard2.png" width="700"> <img src="/magang_dashboard3.png" width="700">
 
 ---
 
@@ -62,8 +62,8 @@ A mobile app that helps identify dyslexia symptoms using **Kotlin** and **Fireba
 
 📸 **App Preview:**  
 <img src="https://github.com/CH2-PS100/DyslexiaScanner_MD/assets/106803028/09e2ce08-c361-415e-94d9-ca546dfd7a80" width="200">
-<img src="https://github.com/CH2-PS100/DyslexiaScanner_MD/assets/106803028/a3c56a18-9b7c-41f8-a03c-c74bed11f0dc" width="200">
 <img src="https://github.com/CH2-PS100/DyslexiaScanner_MD/assets/106803028/ff062665-a9eb-4d19-a4ba-ee1ea458305f" width="200">
+<img src="https://github.com/CH2-PS100/DyslexiaScanner_MD/assets/106803028/9d08c20e-46a0-4885-bd7e-29c167801875" width="200">
 
 ---
 
