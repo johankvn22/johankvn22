@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hi, I'm Johan Kevin Kenneth Hutagalung</h1>
 
 <p align="center">
-  🎓 Informatics Engineering Student at <b>Politeknik Negeri Jakarta</b> | Graduate of <b>CEP-CCIT FTUI</b> <br>
+  🎓 <b>Informatics Engineering Graduate</b> from <b>Politeknik Negeri Jakarta</b> (GPA: 3.57) | Graduate of <b>CEP-CCIT FTUI</b> <br>
   💻 Passionate about <b>Web & Android Development</b> <br>
   📍 Based in Pasar Rebo, East Jakarta
 </p>
@@ -10,15 +10,15 @@
 
 ## 🧑‍💼 About Me
 
-I’m a 6th-semester student majoring in Informatics Engineering at **Politeknik Negeri Jakarta (PNJ)** and a graduate of **CEP-CCIT FTUI**.  
-I’m passionate about **building intuitive digital solutions**, both in web and mobile environments.  
-I enjoy learning new technologies, solving problems, and collaborating on meaningful projects.
+I’m an **Informatics Engineering graduate** from **Politeknik Negeri Jakarta (PNJ)** and **CEP-CCIT FTUI** with a **GPA of 3.57**.  
+I’m passionate about **building intuitive and scalable digital solutions** for web and mobile environments.  
+I love solving real-world problems through technology and continuously learning new tools to improve my craft.
 
 ✨ **What defines me:**
-- 🔍 Strong analytical mindset and understanding of programming concepts  
-- 🧠 Constantly improving skills in **frontend** and **backend**  
-- 💬 Enjoy teamwork, brainstorming, and learning from others  
-- 🤝 Open to technical consulting and collaborative development opportunities  
+- 🔍 Strong analytical mindset and solid programming fundamentals  
+- 🧠 Skilled in both **frontend** and **backend** development  
+- 💬 Enjoy teamwork, brainstorming, and technical discussions  
+- 🤝 Open to opportunities in software development and technical consulting  
 
 📫 **Reach me at:** [johankevin2202@gmail.com](mailto:johankevin2202@gmail.com)  
 🔗 **LinkedIn:** [linkedin.com/in/johankvn22](https://linkedin.com/in/johankvn22)
@@ -42,36 +42,21 @@ I enjoy learning new technologies, solving problems, and collaborating on meanin
 
 ### 🎓 Internship Management Information System (Skripsi)
 > *“Perancangan Website Sistem Informasi Pengelolaan Magang Prodi Teknik Informatika”*  
-A web-based system built with **PHP (CodeIgniter 4)** and **MySQL** to manage internship administration digitally — from registration to final evaluation.  
-💡 Roles: System Analyst, Backend Developer, and Documentation Lead  
+A web-based system built with **PHP (CodeIgniter 4)** and **MySQL** to manage internship administration digitally — from registration to evaluation.  
+💡 Roles: System Analyst, Backend Developer, Documentation Lead  
 
-📸 *System Screenshots:*  
-| Dashboard | Form Pendaftaran | Data Mahasiswa |
-|------------|------------------|----------------|
-| <img src="screenshots/magang_dashboard.png" width="250"> | <img src="screenshots/magang_form.png" width="250"> | <img src="screenshots/magang_data.png" width="250"> |
+📸 **Preview Dashboard:**  
+<img src="screenshots/magang_dashboard1.png" width="400"> <img src="screenshots/magang_dashboard2.png" width="400"> <img src="screenshots/magang_dashboard3.png" width="400">
 
 ---
 
 ### 📱 DyslexiaScanner App
 A mobile app that helps identify dyslexia symptoms using **Kotlin** and **Firebase ML Kit** for image processing and text recognition.  
-- Designed intuitive UI for children’s accessibility  
-- Integrated camera & OCR features  
+- Designed an intuitive UI for accessibility  
+- Integrated OCR and camera features  
 
-📸 *App Previews:*  
-| Home | Camera | Result |
-|------|---------|--------|
-| <img src="screenshots/dyslexiascanner_home.png" width="250"> | <img src="screenshots/dyslexiascanner_camera.png" width="250"> | <img src="screenshots/dyslexiascanner_result.png" width="250"> |
-
----
-
-### 🌐 Cmpulist Web & Mobile
-A responsive website and mobile prototype to manage campus activities and announcements.  
-🛠️ Built with **HTML**, **CSS**, **JavaScript**, and **Firebase**.  
-
-📸 *Screenshots:*  
-| Homepage | Event Detail | Mobile View |
-|-----------|---------------|--------------|
-| <img src="screenshots/cmpulist_home.png" width="250"> | <img src="screenshots/cmpulist_event.png" width="250"> | <img src="screenshots/cmpulist_mobile.png" width="250"> |
+📸 **App Preview:**  
+<img src="screenshots/dyslexiascanner1.png" width="250"> <img src="screenshots/dyslexiascanner2.png" width="250"> <img src="screenshots/dyslexiascanner3.png" width="250">
 
 ---
 
@@ -80,41 +65,27 @@ A responsive website and mobile prototype to manage campus activities and announ
 ### 🧑‍💻 **MSIB Internship — Web Developer**
 - Developed and maintained WordPress-based company websites.  
 - Installed, configured, and customized themes & plugins.  
-- Collaborated with team members to ensure responsive and user-friendly design.  
+- Collaborated with the content team to ensure responsive and optimized design.  
 
-📸 *Dashboard Preview:*  
+📸 **Dashboard Preview:**  
 <img src="screenshots/msib_dashboard.png" width="700">
 
 ---
 
 ### 🖥️ **IT Support Intern — Vocational High School**
 - Installed operating systems on company desktops.  
-- Maintained queue management systems at branch and client locations.  
-- Inputted product and maintenance reports into databases.  
+- Maintained queue management systems at branches and client locations.  
+- Inputted product and maintenance reports into company databases.  
 
-📸 *Internship Activity:*  
+📸 **Activity Photo:**  
 <img src="screenshots/it_support_activity.png" width="700">
 
 ---
 
-## 🌱 Currently Learning
-- Modern frontend frameworks (React, Tailwind CSS)  
-- Backend integration, API development, Microservices  
+## 🌱 Currently Exploring
+- Modern frontend frameworks: **React**, **Tailwind CSS**  
+- API development & microservices integration  
 
 ---
 
-## 🏆 Highlights
-- 💡 Final Project Developer — Internship Management System (CodeIgniter + MySQL)  
-- 🧩 Web Developer Intern — WordPress Customization & Optimization  
-- 🧰 IT Support Intern — Maintenance & Database Reporting  
-
----
-
-## ⚡ Fun Fact
-When I’m not coding, you’ll probably find me **playing games**, exploring new maps, or trying to beat my own high score 🎮😄  
-
----
-
-<p align="center">
-  ⭐ <i>“Keep building, stay curious, and never stop learning.”</i> ⭐
-</p>
+## 🏆 Highlig
