@@ -58,22 +58,6 @@ A mobile app that helps identify dyslexia symptoms using **Kotlin** and **Fireba
 
 ---
 
-### 🌐 Cmpulist Web & Mobile
-A responsive website and mobile prototype to manage campus activities and announcements.  
-🛠️ Built with **HTML**, **CSS**, **JavaScript**, and **Firebase**.  
-📸 *Homepage Preview:*  
-<img src="screenshots/cmpulist_home.png" width="700">
-
----
-
-### 🍌 Pisangin App
-An e-commerce app for local banana product sellers — designed to promote regional businesses.  
-- Created UI prototypes using **Figma**  
-- Developed Android version with **Kotlin** and **Firebase**  
-📸 *UI Showcase:*  
-<img src="screenshots/pisangin_ui.png" width="400">
-
----
 
 ## 🧩 Experience
 
