@@ -31,7 +31,7 @@ I enjoy learning new technologies, solving problems, and collaborating on meanin
 `HTML` `CSS` `JavaScript` `Bootstrap` `Figma`
 
 **Backend & Database:**  
-`PHP (CodeIgniter)` `MySQL` `Java` `Kotlin`
+`PHP (CodeIgniter)` `MySQL` `Java` `Kotlin` `Phyton`
 
 **Tools & Platforms:**  
 `VS Code` `Android Studio` `Git & GitHub` `XAMPP` `Firebase`
