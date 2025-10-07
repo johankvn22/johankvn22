@@ -16,7 +16,7 @@ I enjoy learning new technologies, solving problems, and collaborating on meanin
 
 ✨ **What defines me:**
 - 🔍 Strong analytical mindset and understanding of programming concepts  
-- 🧠 Constantly improving skills in **frontend** and **UI/UX design**  
+- 🧠 Constantly improving skills in **frontend** and **backend**  
 - 💬 Enjoy teamwork, brainstorming, and learning from others  
 - 🤝 Open to technical consulting and collaborative development opportunities  
 
