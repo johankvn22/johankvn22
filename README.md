@@ -2,7 +2,7 @@
 
 <p align="center">
   🎓 Informatics Engineering Student at <b>Politeknik Negeri Jakarta</b> | Graduate of <b>CEP-CCIT FTUI</b> <br>
-  💻 Passionate about <b>Web & Android Development</b> | UI/UX Enthusiast <br>
+  💻 Passionate about <b>Web & Android Development</b> <br>
   📍 Based in Pasar Rebo, East Jakarta
 </p>
 
