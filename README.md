@@ -67,23 +67,13 @@ A mobile app that helps identify dyslexia symptoms using **Kotlin** and **Fireba
 
 ---
 
-### 🎬 MoviePlaza — Online Movie Platform
-A web-based platform for browsing and reviewing movies with an intuitive and responsive design.  
-Built with **HTML**, **CSS**, **JavaScript**, and **Bootstrap** to deliver a dynamic user experience.  
-
-🌐 **Live Website:** [movieplaza.id](https://movieplaza.id/)
-
-📸 **Preview:**  
-<img src="/movieplaza_preview.png" width="700">
-
----
-
 ## 🧩 Experience
 
 ### 🧑‍💻 **MSIB Internship — Web Developer**
 - Developed and maintained WordPress-based company websites.  
 - Installed, configured, and customized themes & plugins.  
 - Collaborated with the content team to ensure responsive and optimized design.  
+🌐 **Live Website:** [movieplaza.id](https://movieplaza.id/)
 
 📸 **Dashboard Preview:**  
 <img src="/msib_dashboard.png" width="700">
