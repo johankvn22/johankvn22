@@ -31,7 +31,7 @@ I enjoy learning new technologies, solving problems, and collaborating on meanin
 `HTML` `CSS` `JavaScript` `Bootstrap` `Figma`
 
 **Backend & Database:**  
-`PHP (CodeIgniter)` `MySQL` `Java` `Kotlin` `Phyton`
+`PHP (CodeIgniter)` `MySQL` `Java` `Kotlin` `Python`
 
 **Tools & Platforms:**  
 `VS Code` `Android Studio` `Git & GitHub` `XAMPP` `Firebase`
@@ -44,8 +44,11 @@ I enjoy learning new technologies, solving problems, and collaborating on meanin
 > *“Perancangan Website Sistem Informasi Pengelolaan Magang Prodi Teknik Informatika”*  
 A web-based system built with **PHP (CodeIgniter 4)** and **MySQL** to manage internship administration digitally — from registration to final evaluation.  
 💡 Roles: System Analyst, Backend Developer, and Documentation Lead  
-📸 *Preview Dashboard*  
-<img src="screenshots/magang_dashboard.png" width="700">
+
+📸 *System Screenshots:*  
+| Dashboard | Form Pendaftaran | Data Mahasiswa |
+|------------|------------------|----------------|
+| <img src="screenshots/magang_dashboard.png" width="250"> | <img src="screenshots/magang_form.png" width="250"> | <img src="screenshots/magang_data.png" width="250"> |
 
 ---
 
@@ -53,30 +56,50 @@ A web-based system built with **PHP (CodeIgniter 4)** and **MySQL** to manage in
 A mobile app that helps identify dyslexia symptoms using **Kotlin** and **Firebase ML Kit** for image processing and text recognition.  
 - Designed intuitive UI for children’s accessibility  
 - Integrated camera & OCR features  
-📸 *Wireframe:*  
-<img src="screenshots/dyslexiascanner_ui.png" width="400">
+
+📸 *App Previews:*  
+| Home | Camera | Result |
+|------|---------|--------|
+| <img src="screenshots/dyslexiascanner_home.png" width="250"> | <img src="screenshots/dyslexiascanner_camera.png" width="250"> | <img src="screenshots/dyslexiascanner_result.png" width="250"> |
 
 ---
 
+### 🌐 Cmpulist Web & Mobile
+A responsive website and mobile prototype to manage campus activities and announcements.  
+🛠️ Built with **HTML**, **CSS**, **JavaScript**, and **Firebase**.  
+
+📸 *Screenshots:*  
+| Homepage | Event Detail | Mobile View |
+|-----------|---------------|--------------|
+| <img src="screenshots/cmpulist_home.png" width="250"> | <img src="screenshots/cmpulist_event.png" width="250"> | <img src="screenshots/cmpulist_mobile.png" width="250"> |
+
+---
 
 ## 🧩 Experience
 
 ### 🧑‍💻 **MSIB Internship — Web Developer**
 - Developed and maintained WordPress-based company websites.  
 - Installed, configured, and customized themes & plugins.  
-- Collaborated with team members to ensure responsive and user-friendly design.
+- Collaborated with team members to ensure responsive and user-friendly design.  
+
+📸 *Dashboard Preview:*  
+<img src="screenshots/msib_dashboard.png" width="700">
+
+---
 
 ### 🖥️ **IT Support Intern — Vocational High School**
 - Installed operating systems on company desktops.  
 - Maintained queue management systems at branch and client locations.  
-- Inputted product and maintenance reports into databases.
+- Inputted product and maintenance reports into databases.  
+
+📸 *Internship Activity:*  
+<img src="screenshots/it_support_activity.png" width="700">
 
 ---
 
 ## 🌱 Currently Learning
-- UI/UX best practices & human-centered design  
 - Modern frontend frameworks (React, Tailwind CSS)  
-- Backend integration & API development  
+- Backend integration, API development, Microservices  
 
 ---
 
@@ -88,7 +111,7 @@ A mobile app that helps identify dyslexia symptoms using **Kotlin** and **Fireba
 ---
 
 ## ⚡ Fun Fact
-When I’m not coding, I love exploring UI ideas, watching tech reviews, and experimenting with digital design tools.
+When I’m not coding, you’ll probably find me **playing games**, exploring new maps, or trying to beat my own high score 🎮😄  
 
 ---
 
