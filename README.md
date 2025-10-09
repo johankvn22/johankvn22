@@ -91,8 +91,8 @@ A mobile app that helps identify dyslexia symptoms using **Kotlin** and **Fireba
 ---
 
 ## 🌱 Currently Exploring
-- Modern frontend frameworks: **React**, **Tailwind CSS**  
-- API development & microservices integration  
+- Modern frontend frameworks: **React**, **Node.js**  
+- API development & microservices  
 
 ---
 
@@ -100,7 +100,8 @@ A mobile app that helps identify dyslexia symptoms using **Kotlin** and **Fireba
 - 🎓 **GPA 3.57** — Informatics Engineering Graduate, PNJ  
 - 💡 Final Project Developer — Internship Management System (CodeIgniter + MySQL)  
 - 🧩 Web Developer Intern — WordPress Customization & Optimization  
-- 🧰 IT Support Intern — Maintenance & Database Reporting  
+- 🧰 IT Support Intern — Maintenance & Database Reporting
+- 🏆 Top 50 Capstone Project (Disleksia Scanner App)  
 
 ---
 
