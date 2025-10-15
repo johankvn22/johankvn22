@@ -31,7 +31,7 @@ I love solving real-world problems through technology and continuously learning 
 `HTML` `CSS` `JavaScript` `Bootstrap` `Figma`
 
 **Backend & Database:**  
-`PHP (CodeIgniter)` `MySQL` `Java` `Kotlin` `Python`
+`PHP (CodeIgniter)` `MySQL` `Java` `Kotlin`
 
 **Tools & Platforms:**  
 `VS Code` `Android Studio` `Git & GitHub` `XAMPP` `Firebase`
