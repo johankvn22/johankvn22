@@ -1,66 +1,54 @@
-
-<div align="center">
-
-# Johan Kevin Kenneth Hutagalung
-### Full-Stack & Mobile Developer | Informatics Engineering Graduate
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-johankvn22-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/johankvn22)
-[![Email](https://img.shields.io/badge/Email-johankevin2202%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:johankevin2202@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-johankvn22-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/johankvn22)
-
-<p align="center">
-  Lulusan <b>Teknik Informatika</b> dari <b>Politeknik Negeri Jakarta</b> & <b>CEP-CCIT FTUI</b> (IPK: <b>3.57</b>).<br>
-  Berfokus pada pengembangan aplikasi web yang efisien, terukur, dan solusi mobile interaktif.
-</p>
-
+<div align="left">
+  <img src="https://komarev.com/ghpvc/?username=johankvn22&label=Visitor&color=007ec6&style=for-the-badge&abbreviated=true" alt="Visitor Count" />
 </div>
+
+### Hi, I'm Johan Kevin Kenneth Hutagalung 👋
+
+An **Informatics Engineering Graduate** from **Politeknik Negeri Jakarta** & **CEP-CCIT FTUI** (GPA: **3.57**).  
+Passionate about crafting intuitive, scalable web platforms and seamless Android applications.
 
 ---
 
-### 💻 Tech Stack & Tools
+### Tech Stacks
 
-| Kategori | Teknologi |
-| :--- | :--- |
-| **Languages** | `JavaScript` `PHP` `Kotlin` `Java` `HTML5` `CSS3` |
-| **Frameworks & Libs** | `CodeIgniter 4` `Bootstrap` `GSAP` `Android SDK` `Firebase ML Kit` |
-| **Database & Cloud** | `MySQL` `Firebase` `XAMPP` |
-| **Tools & Design** | `Git` `GitHub` `VS Code` `Android Studio` `Figma` |
+<div align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,php,bootstrap,kotlin,java,mysql,firebase,figma,androidstudio,vscode,git,github" />
+  </a>
+</div>
 
 ---
 
 ### 🚀 Featured Projects
 
-#### 1. 🎓 Internship Management System (Skripsi)
-> Sistem informasi pengelolaan magang berbasis web untuk digitalisasi proses administrasi dari pendaftaran hingga evaluasi.
-- **Tech Stack:** PHP (CodeIgniter 4), MySQL, Bootstrap
-- **Roles:** System Analyst, Fullstack Developer
-- **Links:** [📁 Repository](https://github.com/johankvn22/magang) • [🌐 Live Demo](https://wwgi.42web.io/index.php/login)
+#### 🎓 [Internship Management System](https://github.com/johankvn22/magang)
+A full-stack web application designed for academic internship administration, from student registration to final evaluation.
+- **Stack:** `PHP (CodeIgniter 4)` `MySQL` `Bootstrap`
+- **Live Demo:** [wwgi.42web.io](https://wwgi.42web.io/index.php/login)
 
 <details>
-  <summary>📸 <b>Lihat Screenshot Dashboard</b></summary>
-  <br>
-  <p align="center">
+  <summary>📸 <i>View System Previews</i></summary>
+  <br/>
+  <p align="left">
     <img src="/magang_dashboard1.png" width="48%" />
     <img src="/magang_dashboard2.png" width="48%" />
-    <img src="/magang_dashboard3.png" width="96%" />
   </p>
+  <img src="/magang_dashboard3.png" width="97%" />
 </details>
 
-<br>
+<br/>
 
-#### 2. 📱 DyslexiaScanner App (Top 50 Capstone Project)
-> Aplikasi mobile untuk membantu deteksi gejala disleksia menggunakan pengolahan citra dan pengenalan teks (OCR).
-- **Tech Stack:** Kotlin, Firebase ML Kit, CameraX
-- **Focus:** Accessibility UI, Machine Learning Integration
-- **Links:** [📁 Repository](https://github.com/CH2-PS100/DyslexiaScanner_MD)
+#### 📱 [DyslexiaScanner App](https://github.com/CH2-PS100/DyslexiaScanner_MD)
+An accessibility-driven Android app integrating OCR and camera processing to help detect early dyslexia indicators. **Awarded Top 50 Capstone Project**.
+- **Stack:** `Kotlin` `Firebase ML Kit` `CameraX`
 
 <details>
-  <summary>📸 <b>Lihat Screenshot Aplikasi Mobile</b></summary>
-  <br>
-  <p align="center">
-    <img src="https://github.com/CH2-PS100/DyslexiaScanner_MD/assets/106803028/09e2ce08-c361-415e-94d9-ca546dfd7a80" width="28%" />
-    <img src="https://github.com/CH2-PS100/DyslexiaScanner_MD/assets/106803028/ff062665-a9eb-4d19-a4ba-ee1ea458305f" width="28%" />
-    <img src="https://github.com/CH2-PS100/DyslexiaScanner_MD/assets/106803028/9d08c20e-46a0-4885-bd7e-29c167801875" width="28%" />
+  <summary>📸 <i>View Mobile Previews</i></summary>
+  <br/>
+  <p align="left">
+    <img src="https://github.com/CH2-PS100/DyslexiaScanner_MD/assets/106803028/09e2ce08-c361-415e-94d9-ca546dfd7a80" width="30%" />
+    <img src="https://github.com/CH2-PS100/DyslexiaScanner_MD/assets/106803028/ff062665-a9eb-4d19-a4ba-ee1ea458305f" width="30%" />
+    <img src="https://github.com/CH2-PS100/DyslexiaScanner_MD/assets/106803028/9d08c20e-46a0-4885-bd7e-29c167801875" width="30%" />
   </p>
 </details>
 
@@ -68,38 +56,31 @@
 
 ### 💼 Experience
 
-- **Web Developer Intern** — *MSIB Program*
-  - Mengembangkan dan memelihara website perusahaan berbasis CMS WordPress.
-  - Kustomisasi tema & plugin serta optimasi performa dan responsivitas web.
-  - 🌐 [movieplaza.id](https://movieplaza.id/)
+- **Web Developer Intern** • *MSIB Program*  
+  Customized and maintained corporate WordPress websites, ensuring performance, responsiveness, and seamless content delivery.  
+  🌐 [movieplaza.id](https://movieplaza.id/)
 
-<details>
-  <summary>📸 <i>Lihat Dokumentasi Magang</i></summary>
-  <br>
-  <img src="/msib_dashboard.png" width="70%" />
-</details>
-
-- **IT Support Intern** — *SMK Magang*
-  - Manajemen dan instalasi sistem operasi perangkat desktop perusahaan.
-  - Pemeliharaan sistem antrean cabang & input database pelaporan berkala.
-
-<details>
-  <summary>📸 <i>Lihat Dokumentasi Kegiatan</i></summary>
-  <br>
-  <img src="/it_support_activity.png" width="70%" />
-</details>
+- **IT Support Intern** • *Vocational High School*  
+  Managed OS deployment on desktop fleets, maintained branch queue management systems, and handled routine database reporting.
 
 ---
 
-### 📊 GitHub Overview
+### 📬 Connect With Me
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=johankvn22&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=johankvn22&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top Languages" />
+<div align="left">
+  <a href="https://linkedin.com/in/johankvn22">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:johankevin2202@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/johankvn22">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 </div>
 
 ---
 
-<p align="center">
+<p align="left">
   <i>“Keep building, stay curious, and never stop learning.”</i>
 </p>
