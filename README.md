@@ -16,10 +16,16 @@ Passionate about crafting intuitive, scalable web platforms and seamless Mobile 
     <img src="https://skillicons.dev/icons?i=html,css,js,php,laravel,nodejs,react,nextjs,bootstrap,kotlin,java,postgres,mysql,firebase,docker,linux,ubuntu,nginx,cloudflare,gcp,postman,figma,androidstudio,vscode,git,github&theme=light&perline=13" alt="Tech Stacks" />
   </a>
 </div>
-<p align="left">
-  <b>Also working with:</b> 
-  <code>CodeIgniter 4</code> • <code>Composer</code> • <code>Apache</code> • <code>phpMyAdmin</code> • <code>cPanel / VPS</code> • <code>Burp Suite</code> • <code>Xendit & DOKU Payment Gateway</code>
-</p>
+<div align="left" style="margin-top: 8px;">
+  <img src="icons/codeigniter.svg" height="48" width="48" alt="CodeIgniter" />
+  <img src="icons/composer.svg" height="48" width="48" alt="Composer" />
+  <img src="icons/apache.svg" height="48" width="48" alt="Apache" />
+  <img src="icons/phpmyadmin.svg" height="48" width="48" alt="phpMyAdmin" />
+  <img src="icons/cpanel.svg" height="48" width="48" alt="cPanel" />
+  <img src="icons/burpsuite.svg" height="48" width="48" alt="Burp Suite" />
+  <img src="icons/xendit.svg" height="48" width="48" alt="Xendit" />
+  <img src="icons/doku.svg" height="48" width="48" alt="DOKU" />
+</div>
 
 
 
