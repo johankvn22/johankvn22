@@ -4,8 +4,8 @@
 
 ### Hi, I'm Johan Kevin Kenneth Hutagalung 👋
 
-An **Informatics Engineering Graduate** from **Politeknik Negeri Jakarta** & **CEP-CCIT FTUI** (GPA: **3.57**).  
-Passionate about crafting intuitive, scalable web platforms and seamless Android applications.
+An **Informatics Engineering Graduate** from **Politeknik Negeri Jakarta** & **CEP-CCIT FTUI**.  
+Passionate about crafting intuitive, scalable web platforms and seamless Mobile applications.
 
 ---
 
