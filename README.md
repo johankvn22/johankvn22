@@ -5,7 +5,8 @@
 ### Hi, I'm Johan Kevin Kenneth Hutagalung 👋
 
 An **Informatics Engineering Graduate** from **Politeknik Negeri Jakarta** & **CEP-CCIT FTUI**.  
-Passionate about crafting intuitive, scalable web platforms and seamless Mobile applications.
+i’m currently working on Maxy Academy as Fullstack Developer.
+
 
 ---
 
