@@ -26,7 +26,7 @@ Passionate about crafting intuitive, scalable web platforms and seamless Mobile 
   <a href="https://www.linkedin.com/in/johan-kevin-kenneth-hutagalung-402597243/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:johankevin2202@gmail.com">
+  <a href="johankevin2202@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/johankvn22">
