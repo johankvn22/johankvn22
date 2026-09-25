@@ -58,10 +58,10 @@ i’m currently working on Maxy Academy as Fullstack Developer.
 </div>
 <br/>
 <div align="left">
-  <!-- Kartu Statistik Umum & Bahasa Paling Sering Digunakan -->
-  <img src="https://github-stats-extended.vercel.app/api?username=johankvn22&show_icons=true&hide_border=true&theme=default" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api?username=johankvn22&show_icons=true&hide_border=true&theme=default&include_all_commits=true" alt="GitHub Stats" />
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=johankvn22&layout=compact&hide_border=true&theme=default" alt="Most Used Languages" />
 </div>
+
 
 ---
 
