@@ -62,7 +62,7 @@ i’m currently working on Maxy Academy as Fullstack Developer.
 
 <div align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-trophies.devomb.com/?username=johankvn22&theme=flat&no-bg=true&rank=-?&column=5" alt="GitHub Trophies" />
+    <img src="https://github-trophies.devomb.com/?username=johankvn22&theme=flat&rank=-?&column=5&v=2" alt="GitHub Trophies" />
   </a>
 </div>
 
