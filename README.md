@@ -8,11 +8,6 @@
   <img src="https://komarev.com/ghpvc/?username=johankvn22&label=Visitor&color=007ec6&style=for-the-badge" alt="Visitor Count" />
 </div>
 
-### Hi, I'm Johan Kevin Kenneth Hutagalung 👋
-
-An **Informatics Engineering Graduate** from **Politeknik Negeri Jakarta** & **CEP-CCIT FTUI**.  
-i’m currently working on Maxy Academy as Fullstack Developer.
-
 
 ---
 
