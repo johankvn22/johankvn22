@@ -2,7 +2,13 @@ name: Update Streak Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # Berjalan otomatis setiap 1 jam
+    - cron: '0 * * * *'
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'streak.svg'
   workflow_dispatch:
 
 jobs:

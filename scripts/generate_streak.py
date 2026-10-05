@@ -55,12 +55,13 @@ def generate_svg():
         
     longest_streak_range_str = f'{max_streak_range[0].strftime("%b %-d, %Y")} - {max_streak_range[1].strftime("%b %-d, %Y")}' if max_streak_range[0] else ''
     
-    # Current streak
+    # Current streak calculation
     today = datetime.now().date()
     check_d = today
     if all_days.get(check_d.strftime('%Y-%m-%d'), 0) == 0:
         check_d = today - timedelta(days=1)
         
+    last_active = check_d
     curr_streak = 0
     curr_start = check_d
     while all_days.get(check_d.strftime('%Y-%m-%d'), 0) > 0:
@@ -70,10 +71,10 @@ def generate_svg():
         
     if curr_streak == 0:
         curr_streak_range_str = today.strftime('%b %-d')
-    elif curr_start == today:
-        curr_streak_range_str = today.strftime('%b %-d')
+    elif curr_start == last_active:
+        curr_streak_range_str = last_active.strftime('%b %-d')
     else:
-        curr_streak_range_str = f'{curr_start.strftime("%b %-d")} - {today.strftime("%b %-d")}'
+        curr_streak_range_str = f'{curr_start.strftime("%b %-d")} - {last_active.strftime("%b %-d")}'
         
     total_str = f'{total_contribs:,}'
     
