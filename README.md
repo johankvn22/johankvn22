@@ -87,7 +87,5 @@
 ---
 
 <div align="center">
-  <i>“Keep building, stay curious, and never stop learning.”</i>
+  <img src="./footer-ombak-surf.svg" alt="Johan Kevin Ocean Waves" width="100%" />
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0093D0,100:0033A0&height=110&section=footer" width="100%" />
