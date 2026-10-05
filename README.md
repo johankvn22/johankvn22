@@ -1,5 +1,5 @@
 <div align="left">
-  <img src="https://komarev.com/ghpvc/?username=johankvn22&label=Visitor&color=007ec6&style=for-the-badge&abbreviated=true&v=1k" alt="Visitor Count" />
+  <img src="https://komarev.com/ghpvc/?username=johankvn22&label=Visitor&color=007ec6&style=for-the-badge" alt="Visitor Count" />
 </div>
 
 ### Hi, I'm Johan Kevin Kenneth Hutagalung 👋
