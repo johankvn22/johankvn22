@@ -53,7 +53,7 @@ i’m currently working on Maxy Academy as Fullstack Developer.
 
 ### GitHub Activity & Statistics
 <div align="left">
-  <img src="https://streak-stats.demolab.com/?user=johankvn22&theme=default&hide_border=true&v=oct5_abstract" alt="GitHub Streak Stats" />
+  <img src="./streak.svg" alt="GitHub Streak Stats" />
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=johankvn22&layout=compact&hide_border=true&theme=default" alt="Most Used Languages" />
 </div>
 
