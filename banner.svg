@@ -1,173 +1,80 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 850 260' width='850' height='260' fill='none'>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 850 185' width='850' height='185' fill='none'>
     <style>
-        @keyframes glowFloat {
-            0% { transform: translate(0px, 0px) scale(1); opacity: 0.45; }
-            50% { transform: translate(30px, -15px) scale(1.15); opacity: 0.75; }
-            100% { transform: translate(0px, 0px) scale(1); opacity: 0.45; }
+        @keyframes waveFloat1 {
+            0% { transform: translateX(0px); }
+            50% { transform: translateX(-35px); }
+            100% { transform: translateX(0px); }
         }
-        @keyframes glowFloat2 {
-            0% { transform: translate(0px, 0px) scale(1.1); opacity: 0.4; }
-            50% { transform: translate(-25px, 20px) scale(0.9); opacity: 0.7; }
-            100% { transform: translate(0px, 0px) scale(1.1); opacity: 0.4; }
+        @keyframes waveFloat2 {
+            0% { transform: translateX(0px); }
+            50% { transform: translateX(30px); }
+            100% { transform: translateX(0px); }
         }
-        @keyframes pulseDot {
-            0% { transform: scale(0.95); opacity: 0.8; }
-            50% { transform: scale(1.4); opacity: 0.3; }
-            100% { transform: scale(0.95); opacity: 0.8; }
+        @keyframes gentleGaze {
+            0%, 100% { opacity: 0.95; }
+            50% { opacity: 1; }
         }
-        @keyframes shimmerBorder {
-            0% { stroke-dashoffset: 800; }
-            100% { stroke-dashoffset: -800; }
-        }
-        @keyframes floatCube {
-            0% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-8px) rotate(3deg); }
-            100% { transform: translateY(0px) rotate(0deg); }
-        }
-        .title-text {
+        .banner-title {
             font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
-            font-weight: 800;
-            font-size: 32px;
-            letter-spacing: -0.5px;
+            font-weight: 700;
+            font-size: 33px;
+            letter-spacing: -0.3px;
         }
-        .subtitle-text {
+        .banner-subtitle {
             font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
-            font-weight: 500;
-            font-size: 15px;
-            letter-spacing: 0.2px;
-        }
-        .tag-text {
-            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
-            font-weight: 600;
-            font-size: 12px;
-        }
-        .pill-text {
-            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
-            font-weight: 600;
-            font-size: 11px;
-            letter-spacing: 0.5px;
+            font-weight: 400;
+            font-size: 15.5px;
+            letter-spacing: 0.6px;
         }
     </style>
 
     <defs>
-        <!-- Gradients -->
-        <linearGradient id='bgGrad' x1='0%' y1='0%' x2='100%' y2='100%'>
-            <stop offset='0%' stop-color='#0B0F19'/>
-            <stop offset='50%' stop-color='#0F172A'/>
-            <stop offset='100%' stop-color='#050811'/>
+        <!-- Ocean Blue Gradient matching reference -->
+        <linearGradient id='mainOceanGrad' x1='0%' y1='0%' x2='100%' y2='100%'>
+            <stop offset='0%' stop-color='#0284C7'/>
+            <stop offset='50%' stop-color='#0EA5E9'/>
+            <stop offset='100%' stop-color='#38BDF8'/>
         </linearGradient>
 
-        <linearGradient id='borderGrad' x1='0%' y1='0%' x2='100%' y2='0%'>
-            <stop offset='0%' stop-color='#38BDF8' stop-opacity='0.1'/>
-            <stop offset='30%' stop-color='#38BDF8'/>
-            <stop offset='70%' stop-color='#818CF8'/>
-            <stop offset='100%' stop-color='#C084FC' stop-opacity='0.1'/>
+        <linearGradient id='waveGrad1' x1='0%' y1='0%' x2='100%' y2='0%'>
+            <stop offset='0%' stop-color='#38BDF8' stop-opacity='0.4'/>
+            <stop offset='50%' stop-color='#7DD3FC' stop-opacity='0.6'/>
+            <stop offset='100%' stop-color='#BAE6FD' stop-opacity='0.4'/>
         </linearGradient>
 
-        <linearGradient id='titleGrad' x1='0%' y1='0%' x2='100%' y2='0%'>
-            <stop offset='0%' stop-color='#FFFFFF'/>
-            <stop offset='35%' stop-color='#F8FAFC'/>
-            <stop offset='75%' stop-color='#38BDF8'/>
-            <stop offset='100%' stop-color='#818CF8'/>
+        <linearGradient id='waveGrad2' x1='100%' y1='0%' x2='0%' y2='100%'>
+            <stop offset='0%' stop-color='#0284C7' stop-opacity='0.45'/>
+            <stop offset='60%' stop-color='#38BDF8' stop-opacity='0.55'/>
+            <stop offset='100%' stop-color='#E0F2FE' stop-opacity='0.35'/>
         </linearGradient>
 
-        <linearGradient id='accentGrad' x1='0%' y1='0%' x2='100%' y2='0%'>
-            <stop offset='0%' stop-color='#38BDF8'/>
-            <stop offset='100%' stop-color='#818CF8'/>
-        </linearGradient>
-
-        <radialGradient id='orb1' cx='50%' cy='50%' r='50%'>
-            <stop offset='0%' stop-color='#0EA5E9' stop-opacity='0.4'/>
-            <stop offset='100%' stop-color='#0EA5E9' stop-opacity='0'/>
-        </radialGradient>
-
-        <radialGradient id='orb2' cx='50%' cy='50%' r='50%'>
-            <stop offset='0%' stop-color='#6366F1' stop-opacity='0.35'/>
-            <stop offset='100%' stop-color='#6366F1' stop-opacity='0'/>
-        </radialGradient>
-
-        <pattern id='grid' width='30' height='30' patternUnits='userSpaceOnUse'>
-            <path d='M 30 0 L 0 0 0 30' fill='none' stroke='#334155' stroke-width='0.5' stroke-opacity='0.25'/>
-            <circle cx='30' cy='30' r='0.8' fill='#475569' fill-opacity='0.4'/>
-        </pattern>
-
-        <clipPath id='cardClip'>
-            <rect width='850' height='260' rx='16'/>
+        <clipPath id='topRoundClip'>
+            <rect width='850' height='185' rx='8' />
         </clipPath>
     </defs>
 
-    <g clip-path='url(#cardClip)'>
-        <!-- Base Card Background -->
-        <rect width='850' height='260' fill='url(#bgGrad)'/>
+    <g clip-path='url(#topRoundClip)'>
+        <!-- Main Ocean Banner Base with flowing wave bottom -->
+        <path d='M 0 0 L 850 0 L 850 138 C 740 168 620 125 480 150 C 330 178 180 124 0 146 Z' fill='url(#mainOceanGrad)'/>
 
-        <!-- Tech Dot Grid Overlay -->
-        <rect width='850' height='260' fill='url(#grid)'/>
-
-        <!-- Ambient Floating Glowing Orbs -->
-        <circle cx='720' cy='60' r='140' fill='url(#orb1)' style='animation: glowFloat 7s ease-in-out infinite;'/>
-        <circle cx='120' cy='220' r='150' fill='url(#orb2)' style='animation: glowFloat2 9s ease-in-out infinite;'/>
-
-        <!-- Top Decorative Window Controls -->
-        <g transform='translate(35, 30)'>
-            <circle cx='0' cy='0' r='5' fill='#EF4444' fill-opacity='0.8'/>
-            <circle cx='16' cy='0' r='5' fill='#F59E0B' fill-opacity='0.8'/>
-            <circle cx='32' cy='0' r='5' fill='#10B981' fill-opacity='0.8'/>
+        <!-- Animated Wave Layer 1 (Back wave) -->
+        <g style='animation: waveFloat1 8s ease-in-out infinite;'>
+            <path d='M -50 0 L 900 0 L 900 142 C 770 115 650 165 490 136 C 340 108 170 162 -50 134 Z' fill='url(#waveGrad1)'/>
         </g>
 
-        <!-- Status Pill Badge -->
-        <g transform='translate(605, 23)'>
-            <rect x='0' y='0' width='210' height='26' rx='13' fill='#1E293B' fill-opacity='0.8' stroke='#334155' stroke-width='1'/>
-            <circle cx='16' cy='13' r='6' fill='#10B981' style='animation: pulseDot 2s ease-in-out infinite; transform-origin: 16px 13px;'/>
-            <circle cx='16' cy='13' r='3.5' fill='#10B981'/>
-            <text x='28' y='17' fill='#E2E8F0' class='pill-text'>READY TO COLLABORATE</text>
+        <!-- Animated Wave Layer 2 (Middle wave) -->
+        <g style='animation: waveFloat2 10s ease-in-out infinite;'>
+            <path d='M -50 0 L 900 0 L 900 132 C 730 170 600 128 450 152 C 290 178 140 126 -50 155 Z' fill='url(#waveGrad2)'/>
         </g>
 
-        <!-- Main Identity Info -->
-        <g transform='translate(45, 88)'>
-            <!-- Small Lead Greeting -->
-            <text x='0' y='0' fill='#38BDF8' class='tag-text' letter-spacing='1.5'>
-                &lt;HELLO WORLD /&gt;
-            </text>
-
-            <!-- Name Title -->
-            <text x='0' y='38' fill='url(#titleGrad)' class='title-text'>
+        <!-- Typography: Centered, Clean, Premium -->
+        <g style='animation: gentleGaze 5s ease-in-out infinite;'>
+            <text x='425' y='76' text-anchor='middle' fill='#FFFFFF' class='banner-title'>
                 Johan Kevin Kenneth Hutagalung
             </text>
-
-            <!-- Role & Background Subtitle -->
-            <text x='0' y='70' fill='#94A3B8' class='subtitle-text'>
-                Fullstack Developer • Informatics Engineering Graduate (PNJ &amp; CEP-CCIT FTUI)
+            <text x='425' y='108' text-anchor='middle' fill='#F0F9FF' class='banner-subtitle'>
+                Fullstack Developer | Informatics Engineering
             </text>
-
-            <!-- Bottom Tech Tags -->
-            <g transform='translate(0, 96)'>
-                <!-- Tag 1 -->
-                <rect x='0' y='0' width='120' height='28' rx='8' fill='#1E293B' fill-opacity='0.7' stroke='#334155' stroke-width='1'/>
-                <text x='60' y='18' text-anchor='middle' fill='#38BDF8' class='tag-text'>⚡ Laravel &amp; PHP</text>
-
-                <!-- Tag 2 -->
-                <rect x='130' y='0' width='125' height='28' rx='8' fill='#1E293B' fill-opacity='0.7' stroke='#334155' stroke-width='1'/>
-                <text x='192' y='18' text-anchor='middle' fill='#67E8F9' class='tag-text'>⚛️ React &amp; Next.js</text>
-
-                <!-- Tag 3 -->
-                <rect x='265' y='0' width='120' height='28' rx='8' fill='#1E293B' fill-opacity='0.7' stroke='#334155' stroke-width='1'/>
-                <text x='325' y='18' text-anchor='middle' fill='#818CF8' class='tag-text'>🐳 Docker &amp; CI/CD</text>
-
-                <!-- Tag 4 -->
-                <rect x='395' y='0' width='125' height='28' rx='8' fill='#1E293B' fill-opacity='0.7' stroke='#334155' stroke-width='1'/>
-                <text x='457' y='18' text-anchor='middle' fill='#A78BFA' class='tag-text'>🐧 Linux &amp; Cloud</text>
-            </g>
         </g>
-
-        <!-- Right Side Decorative Futuristic Isometric Code Badge -->
-        <g transform='translate(740, 155)' opacity='0.85' style='animation: floatCube 4s ease-in-out infinite;'>
-            <polygon points='0,-45 40,-20 40,30 0,55 -40,30 -40,-20' fill='#1E293B' fill-opacity='0.6' stroke='url(#accentGrad)' stroke-width='1.5'/>
-            <path d='M-18,-8 L-8,2 L-18,12 M8,-8 L18,2 L8,12' stroke='#38BDF8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/>
-            <circle cx='0' cy='2' r='2.5' fill='#818CF8'/>
-        </g>
-
-        <!-- Outer Premium Glow Border -->
-        <rect x='0.5' y='0.5' width='849' height='259' rx='16' fill='none' stroke='#1E293B' stroke-width='1'/>
-        <rect x='0.5' y='0.5' width='849' height='259' rx='16' fill='none' stroke='url(#borderGrad)' stroke-width='1.5' stroke-dasharray='180 620' style='animation: shimmerBorder 12s linear infinite;'/>
     </g>
 </svg>
