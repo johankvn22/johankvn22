@@ -1,0 +1,147 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 850 200' width='850' height='200' fill='none'>
+    <style>
+        @keyframes cloudDrift1 {
+            0% { transform: translateX(0px); }
+            50% { transform: translateX(25px); }
+            100% { transform: translateX(0px); }
+        }
+        @keyframes cloudDrift2 {
+            0% { transform: translateX(0px); }
+            50% { transform: translateX(-30px); }
+            100% { transform: translateX(0px); }
+        }
+        @keyframes floatPuff1 {
+            0% { transform: translate(0px, 0px); }
+            50% { transform: translate(-35px, -3px); }
+            100% { transform: translate(0px, 0px); }
+        }
+        @keyframes floatPuff2 {
+            0% { transform: translate(0px, 0px); }
+            50% { transform: translate(40px, 2px); }
+            100% { transform: translate(0px, 0px); }
+        }
+        .banner-title {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
+            font-weight: 700;
+            font-size: 33px;
+            letter-spacing: -0.3px;
+        }
+        .banner-subtitle {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
+            font-weight: 400;
+            font-size: 15.5px;
+            letter-spacing: 0.8px;
+        }
+    </style>
+
+    <defs>
+        <!-- Crisp Sky Gradient -->
+        <linearGradient id='skyGrad' x1='0%' y1='0%' x2='100%' y2='100%'>
+            <stop offset='0%' stop-color='#0284C7'/>
+            <stop offset='45%' stop-color='#0EA5E9'/>
+            <stop offset='100%' stop-color='#38BDF8'/>
+        </linearGradient>
+
+        <!-- Soft Cloud Gradients -->
+        <linearGradient id='cloudBackGrad' x1='0%' y1='0%' x2='0%' y2='100%'>
+            <stop offset='0%' stop-color='#BAE6FD' stop-opacity='0.6'/>
+            <stop offset='100%' stop-color='#E0F2FE' stop-opacity='0.3'/>
+        </linearGradient>
+
+        <linearGradient id='cloudMidGrad' x1='0%' y1='0%' x2='0%' y2='100%'>
+            <stop offset='0%' stop-color='#E0F2FE' stop-opacity='0.85'/>
+            <stop offset='100%' stop-color='#F0F9FF' stop-opacity='0.5'/>
+        </linearGradient>
+
+        <linearGradient id='cloudFrontGrad' x1='0%' y1='0%' x2='0%' y2='100%'>
+            <stop offset='0%' stop-color='#FFFFFF'/>
+            <stop offset='60%' stop-color='#F8FAFC'/>
+            <stop offset='100%' stop-color='#F1F5F9' stop-opacity='0.85'/>
+        </linearGradient>
+
+        <!-- Cloud Puff Symbol definition -->
+        <g id='smallCloud'>
+            <path d='M25,35 a18,18 0 0,1 28,-8 a26,26 0 0,1 46,4 a20,20 0 0,1 32,18 a16,16 0 0,1 -12,16 l-88,0 a16,16 0 0,1 -6,-30 z' 
+                  fill='#FFFFFF' fill-opacity='0.35'/>
+        </g>
+
+        <g id='mediumCloud'>
+            <path d='M30,45 a24,24 0 0,1 36,-10 a35,35 0 0,1 62,6 a26,26 0 0,1 42,24 a22,22 0 0,1 -16,22 l-118,0 a22,22 0 0,1 -6,-42 z' 
+                  fill='#FFFFFF' fill-opacity='0.45'/>
+        </g>
+
+        <clipPath id='skyClip'>
+            <rect width='850' height='200' rx='8'/>
+        </clipPath>
+    </defs>
+
+    <g clip-path='url(#skyClip)'>
+        <!-- Sky Canvas -->
+        <rect width='850' height='200' fill='url(#skyGrad)'/>
+
+        <!-- Drifting Floating Cloud 1 (Top Left) -->
+        <g style='animation: floatPuff1 14s ease-in-out infinite;'>
+            <use href='#smallCloud' x='60' y='15' />
+        </g>
+
+        <!-- Drifting Floating Cloud 2 (Top Right) -->
+        <g style='animation: floatPuff2 18s ease-in-out infinite;'>
+            <use href='#mediumCloud' x='640' y='25' />
+        </g>
+
+        <!-- Centered Typography (In the Sky) -->
+        <g>
+            <text x='425' y='68' text-anchor='middle' fill='#FFFFFF' class='banner-title'>
+                Johan Kevin Kenneth Hutagalung
+            </text>
+            <text x='425' y='98' text-anchor='middle' fill='#F0F9FF' class='banner-subtitle'>
+                Fullstack Developer | Informatics Engineering
+            </text>
+        </g>
+
+        <!-- Fluffy Bottom Cloud Bank Layer 1 (Back Clouds - Deepest) -->
+        <g style='animation: cloudDrift1 12s ease-in-out infinite;'>
+            <path d='M -40 200 L -40 145 
+                     Q -10 115 25 135 
+                     Q 65 105 110 128 
+                     Q 155 100 205 125 
+                     Q 250 95 300 120 
+                     Q 350 90 400 118 
+                     Q 455 88 510 118 
+                     Q 565 92 615 122 
+                     Q 665 95 715 125 
+                     Q 765 100 815 128 
+                     Q 855 110 890 135 L 890 200 Z' 
+                  fill='url(#cloudBackGrad)'/>
+        </g>
+
+        <!-- Fluffy Bottom Cloud Bank Layer 2 (Middle Clouds) -->
+        <g style='animation: cloudDrift2 15s ease-in-out infinite;'>
+            <path d='M -40 200 L -40 152 
+                     Q 5 125 50 145 
+                     Q 95 115 145 138 
+                     Q 195 110 250 135 
+                     Q 305 108 360 132 
+                     Q 415 102 470 130 
+                     Q 525 105 580 132 
+                     Q 635 110 685 136 
+                     Q 735 112 785 138 
+                     Q 835 118 890 148 L 890 200 Z' 
+                  fill='url(#cloudMidGrad)'/>
+        </g>
+
+        <!-- Fluffy Bottom Cloud Bank Layer 3 (Foreground Billowy Cumulus Clouds) -->
+        <g>
+            <path d='M -30 200 L -30 160 
+                     Q 15 132 60 154 
+                     Q 110 120 165 148 
+                     Q 220 122 280 150 
+                     Q 340 118 405 146 
+                     Q 470 116 535 145 
+                     Q 600 122 660 148 
+                     Q 720 125 780 152 
+                     Q 830 135 880 162 L 880 200 Z' 
+                  fill='url(#cloudFrontGrad)'/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,118 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 850 140' width='850' height='140' fill='none'>
+    <style>
+        @keyframes ombakRoll1 {
+            0% { transform: translateX(0px) translateY(0px); }
+            50% { transform: translateX(-35px) translateY(3px); }
+            100% { transform: translateX(0px) translateY(0px); }
+        }
+        @keyframes ombakRoll2 {
+            0% { transform: translateX(0px) translateY(0px); }
+            50% { transform: translateX(30px) translateY(-3px); }
+            100% { transform: translateX(0px) translateY(0px); }
+        }
+        @keyframes foamSparkle {
+            0%, 100% { opacity: 0.75; }
+            50% { opacity: 1; }
+        }
+        .footer-quote {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
+            font-style: italic;
+            font-weight: 500;
+            font-size: 15.5px;
+            letter-spacing: 0.3px;
+            fill: #0284C7;
+        }
+        @media (prefers-color-scheme: dark) {
+            .footer-quote {
+                fill: #38BDF8;
+            }
+        }
+    </style>
+
+    <defs>
+        <!-- Ocean Wave Gradients -->
+        <linearGradient id='deepOceanGrad' x1='0%' y1='0%' x2='100%' y2='0%'>
+            <stop offset='0%' stop-color='#0369A1'/>
+            <stop offset='50%' stop-color='#0284C7'/>
+            <stop offset='100%' stop-color='#0EA5E9'/>
+        </linearGradient>
+
+        <linearGradient id='midWaveGrad' x1='100%' y1='0%' x2='0%' y2='0%'>
+            <stop offset='0%' stop-color='#0284C7'/>
+            <stop offset='60%' stop-color='#0EA5E9'/>
+            <stop offset='100%' stop-color='#38BDF8'/>
+        </linearGradient>
+
+        <linearGradient id='frontWaveGrad' x1='0%' y1='0%' x2='100%' y2='0%'>
+            <stop offset='0%' stop-color='#0EA5E9'/>
+            <stop offset='50%' stop-color='#38BDF8'/>
+            <stop offset='100%' stop-color='#7DD3FC'/>
+        </linearGradient>
+
+        <clipPath id='oceanClip'>
+            <rect width='850' height='140' rx='8'/>
+        </clipPath>
+    </defs>
+
+    <!-- Centered Quote Above Waves -->
+    <text x='425' y='32' text-anchor='middle' class='footer-quote'>
+        “Keep building, stay curious, and never stop learning.”
+    </text>
+
+    <g clip-path='url(#oceanClip)'>
+        <!-- Back Ocean Wave (Deep Swell) -->
+        <g style='animation: ombakRoll1 9s ease-in-out infinite;'>
+            <path d='M -60 140 L -60 85 
+                     C 30 55, 120 100, 220 72 
+                     C 320 44, 410 95, 510 65 
+                     C 610 38, 710 88, 810 58 
+                     C 860 45, 910 68, 950 60 L 950 140 Z' 
+                  fill='url(#deepOceanGrad)' opacity='0.75'/>
+            <!-- White Foam Trim for Back Wave -->
+            <path d='M -60 85 
+                     C 30 55, 120 100, 220 72 
+                     C 320 44, 410 95, 510 65 
+                     C 610 38, 710 88, 810 58 
+                     C 860 45, 910 68, 950 60' 
+                  fill='none' stroke='#E0F2FE' stroke-width='2' opacity='0.6'/>
+        </g>
+
+        <!-- Middle Ocean Wave (Rolling Surf) -->
+        <g style='animation: ombakRoll2 7s ease-in-out infinite;'>
+            <path d='M -60 140 L -60 92 
+                     C 40 108, 140 62, 250 88 
+                     C 360 112, 450 68, 560 92 
+                     C 670 114, 760 68, 860 85 
+                     C 900 92, 930 82, 950 86 L 950 140 Z' 
+                  fill='url(#midWaveGrad)' opacity='0.85'/>
+            <!-- Foam Crest -->
+            <path d='M -60 92 
+                     C 40 108, 140 62, 250 88 
+                     C 360 112, 450 68, 560 92 
+                     C 670 114, 760 68, 860 85 
+                     C 900 92, 930 82, 950 86' 
+                  fill='none' stroke='#FFFFFF' stroke-width='2.5' opacity='0.75'/>
+        </g>
+
+        <!-- Foreground Wave (Breaking Ocean Wave with Foam Spray) -->
+        <g style='animation: ombakRoll1 11s ease-in-out infinite;'>
+            <path d='M -60 140 L -60 102 
+                     C 50 78, 130 118, 230 92 
+                     C 340 68, 440 115, 540 88 
+                     C 650 62, 750 112, 850 86 
+                     C 890 76, 925 96, 950 90 L 950 140 Z' 
+                  fill='url(#frontWaveGrad)'/>
+            <!-- Foam Breakers Crest (White Sea Foam) -->
+            <path d='M -60 102 
+                     C 50 78, 130 118, 230 92 
+                     C 340 68, 440 115, 540 88 
+                     C 650 62, 750 112, 850 86 
+                     C 890 76, 925 96, 950 90' 
+                  fill='none' stroke='#FFFFFF' stroke-width='3.5' stroke-linecap='round' style='animation: foamSparkle 3s ease-in-out infinite;'/>
+            <!-- Foam lines / ripples underneath crest -->
+            <path d='M 120 102 Q 170 92 220 95' stroke='#FFFFFF' stroke-width='1.5' stroke-dasharray='8 4' opacity='0.6'/>
+            <path d='M 430 98 Q 480 88 530 91' stroke='#FFFFFF' stroke-width='1.5' stroke-dasharray='8 4' opacity='0.6'/>
+            <path d='M 740 96 Q 790 86 840 89' stroke='#FFFFFF' stroke-width='1.5' stroke-dasharray='8 4' opacity='0.6'/>
+        </g>
+    </g>
+</svg>
