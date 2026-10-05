@@ -1,12 +1,12 @@
-<div align="left">
-  <img src="https://komarev.com/ghpvc/?username=johankvn22&label=Visitor&color=007ec6&style=for-the-badge" alt="Visitor Count" />
-</div>
-
 <div align="center">
-  <img src="./banner-clouds.svg" alt="Johan Kevin Banner" width="100%" />
+  <img src="./banner-clouds-v2.svg" alt="Johan Kevin Banner" width="100%" />
 </div>
 
 <br/>
+
+<div align="left">
+  <img src="https://komarev.com/ghpvc/?username=johankvn22&label=Visitor&color=007ec6&style=for-the-badge" alt="Visitor Count" />
+</div>
 
 
 ---
@@ -87,5 +87,5 @@
 ---
 
 <div align="center">
-  <img src="./footer-ombak-surf.svg" alt="Johan Kevin Ocean Waves" width="100%" />
+  <img src="./footer-ombak-v2.svg" alt="Johan Kevin Ocean Waves" width="100%" />
 </div>

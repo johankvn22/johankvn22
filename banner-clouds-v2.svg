@@ -1,0 +1,175 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 850 210' width='850' height='210' fill='none'>
+    <style>
+        @keyframes driftBack {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-850px); }
+        }
+        @keyframes driftMid {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-850px); }
+        }
+        @keyframes driftFront {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-850px); }
+        }
+        @keyframes sunGlow {
+            0%, 100% { opacity: 0.55; transform: scale(1); }
+            50% { opacity: 0.85; transform: scale(1.08); }
+        }
+        .banner-name {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
+            font-weight: 800;
+            font-size: 33px;
+            letter-spacing: -0.4px;
+            fill: #FFFFFF;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.7)) drop-shadow(0 4px 14px rgba(2, 28, 60, 0.9));
+        }
+        .banner-role {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
+            font-weight: 600;
+            font-size: 15.5px;
+            letter-spacing: 0.8px;
+            fill: #E0F2FE;
+            filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.7)) drop-shadow(0 2px 8px rgba(2, 28, 60, 0.85));
+        }
+    </style>
+
+    <defs>
+        <!-- Deep High-Contrast Sky Gradient (Ensures White Text is Ultra-Clear) -->
+        <linearGradient id='skyDeep' x1='0%' y1='0%' x2='100%' y2='100%'>
+            <stop offset='0%' stop-color='#023054'/>
+            <stop offset='35%' stop-color='#03548F'/>
+            <stop offset='70%' stop-color='#0284C7'/>
+            <stop offset='100%' stop-color='#38BDF8'/>
+        </linearGradient>
+
+        <!-- Ambient Dark Backdrop Glow Behind Text for 100% Guaranteed Legibility -->
+        <radialGradient id='textHalo' cx='50%' cy='50%' r='50%'>
+            <stop offset='0%' stop-color='#011D36' stop-opacity='0.65'/>
+            <stop offset='65%' stop-color='#022B4D' stop-opacity='0.4'/>
+            <stop offset='100%' stop-color='#03548F' stop-opacity='0'/>
+        </radialGradient>
+
+        <!-- Golden Sun Glow in Top Corner -->
+        <radialGradient id='sunRadial' cx='50%' cy='50%' r='50%'>
+            <stop offset='0%' stop-color='#FEF08A' stop-opacity='0.7'/>
+            <stop offset='45%' stop-color='#38BDF8' stop-opacity='0.4'/>
+            <stop offset='100%' stop-color='#0284C7' stop-opacity='0'/>
+        </radialGradient>
+
+        <!-- Volumetric 3D Cloud Gradients -->
+        <linearGradient id='cloudVolTop' x1='0%' y1='0%' x2='0%' y2='100%'>
+            <stop offset='0%' stop-color='#FFFFFF'/>
+            <stop offset='65%' stop-color='#F0F9FF'/>
+            <stop offset='100%' stop-color='#CBD5E1'/>
+        </linearGradient>
+
+        <linearGradient id='cloudVolMid' x1='0%' y1='0%' x2='0%' y2='100%'>
+            <stop offset='0%' stop-color='#FFFFFF' stop-opacity='0.95'/>
+            <stop offset='60%' stop-color='#E0F2FE' stop-opacity='0.85'/>
+            <stop offset='100%' stop-color='#94A3B8' stop-opacity='0.65'/>
+        </linearGradient>
+
+        <linearGradient id='cloudVolFar' x1='0%' y1='0%' x2='0%' y2='100%'>
+            <stop offset='0%' stop-color='#BAE6FD' stop-opacity='0.55'/>
+            <stop offset='100%' stop-color='#E2E8F0' stop-opacity='0.25'/>
+        </linearGradient>
+
+        <!-- 3D Cumulus Cloud Alpha (Detailed Volumetric Billows) -->
+        <g id='cloudAlpha'>
+            <!-- Cloud Underbelly Shadow -->
+            <path d='M 35 125 C 35 95, 65 78, 98 86 C 120 58, 168 46, 205 72 C 232 50, 285 55, 306 86 C 338 86, 358 106, 354 128 C 365 144, 350 164, 330 164 L 55 164 C 32 164, 22 146, 35 125 Z' 
+                  fill='#64748B' fill-opacity='0.22'/>
+            <!-- Cloud Main Body -->
+            <path d='M 35 120 C 35 90, 65 75, 98 84 C 120 55, 168 44, 205 70 C 232 48, 285 52, 306 82 C 338 82, 358 102, 354 124 C 365 140, 350 160, 330 160 L 55 160 C 32 160, 22 142, 35 120 Z' 
+                  fill='url(#cloudVolTop)'/>
+            <!-- Domes Highlight Glare -->
+            <ellipse cx='205' cy='74' rx='60' ry='32' fill='#FFFFFF' fill-opacity='0.4'/>
+            <ellipse cx='122' cy='90' rx='38' ry='22' fill='#FFFFFF' fill-opacity='0.3'/>
+            <ellipse cx='280' cy='88' rx='42' ry='24' fill='#FFFFFF' fill-opacity='0.3'/>
+        </g>
+
+        <!-- 3D Cumulus Cloud Beta -->
+        <g id='cloudBeta'>
+            <path d='M 28 95 C 28 72, 52 60, 75 70 C 92 48, 130 42, 158 62 C 178 46, 212 50, 228 75 C 248 75, 264 90, 260 106 C 268 118, 255 132, 240 132 L 42 132 C 28 132, 20 118, 28 95 Z' 
+                  fill='url(#cloudVolMid)'/>
+            <ellipse cx='158' cy='66' rx='45' ry='24' fill='#FFFFFF' fill-opacity='0.35'/>
+            <ellipse cx='92' cy='78' rx='30' ry='18' fill='#FFFFFF' fill-opacity='0.25'/>
+        </g>
+
+        <!-- Wispy Cirrus Cloud -->
+        <g id='cloudWispy'>
+            <path d='M 25 70 C 25 50, 48 42, 68 50 C 82 34, 115 30, 138 45 C 156 34, 184 36, 198 56 C 212 56, 225 68, 220 82 C 228 90, 218 102, 205 102 L 38 102 C 24 102, 18 90, 25 70 Z' 
+                  fill='url(#cloudVolFar)'/>
+        </g>
+
+        <clipPath id='bannerClip'>
+            <rect width='850' height='210' rx='8'/>
+        </clipPath>
+    </defs>
+
+    <g clip-path='url(#bannerClip)'>
+        <!-- Deep Sky Background -->
+        <rect width='850' height='210' fill='url(#skyDeep)'/>
+
+        <!-- Soft Sun Flare in Top Right -->
+        <circle cx='760' cy='30' r='120' fill='url(#sunRadial)' style='animation: sunGlow 8s ease-in-out infinite;'/>
+
+        <!-- LAYER 1: Distant Wispy Clouds (Slowest Parallax - 55s) -->
+        <g style='animation: driftBack 55s linear infinite;'>
+            <use href='#cloudWispy' x='60' y='-10'/>
+            <use href='#cloudWispy' x='350' y='0'/>
+            <use href='#cloudWispy' x='640' y='-15'/>
+            <!-- Duplicate for seamless infinite loop -->
+            <use href='#cloudWispy' x='910' y='-10'/>
+            <use href='#cloudWispy' x='1200' y='0'/>
+            <use href='#cloudWispy' x='1490' y='-15'/>
+        </g>
+
+        <!-- LAYER 2: Midground Volumetric Clouds (Medium Parallax - 32s) -->
+        <g style='animation: driftMid 32s linear infinite;'>
+            <use href='#cloudBeta' x='-50' y='35'/>
+            <use href='#cloudBeta' x='250' y='45'/>
+            <use href='#cloudBeta' x='560' y='28'/>
+            <!-- Duplicate for seamless infinite loop -->
+            <use href='#cloudBeta' x='800' y='35'/>
+            <use href='#cloudBeta' x='1100' y='45'/>
+            <use href='#cloudBeta' x='1410' y='28'/>
+        </g>
+
+        <!-- LAYER 3: Foreground Billowing Cumulus Bank along bottom (Parallax - 20s) -->
+        <g style='animation: driftFront 20s linear infinite;'>
+            <use href='#cloudAlpha' x='-80' y='72'/>
+            <use href='#cloudAlpha' x='210' y='65'/>
+            <use href='#cloudAlpha' x='510' y='75'/>
+            <!-- Duplicate for seamless infinite loop -->
+            <use href='#cloudAlpha' x='770' y='72'/>
+            <use href='#cloudAlpha' x='1060' y='65'/>
+            <use href='#cloudAlpha' x='1360' y='75'/>
+        </g>
+
+        <!-- Bottom Cloud Horizon Edge (Softens the bottom transition into GitHub) -->
+        <path d='M 0 210 L 0 170 
+                 Q 55 140 120 162 
+                 Q 185 130 255 158 
+                 Q 325 134 395 165 
+                 Q 465 132 535 162 
+                 Q 605 136 675 166 
+                 Q 745 132 815 162 
+                 Q 835 150 850 172 L 850 210 Z' 
+              fill='#FFFFFF' fill-opacity='0.92'/>
+
+        <!-- Ambient Halo Plate Behind Text (Guarantees Text is ALWAYS 100% Readable) -->
+        <ellipse cx='425' cy='95' rx='360' ry='50' fill='url(#textHalo)'/>
+
+        <!-- Centered High-Contrast Prominent Typography -->
+        <g>
+            <text x='425' y='78' text-anchor='middle' class='banner-name'>
+                Johan Kevin Kenneth Hutagalung
+            </text>
+            <text x='425' y='114' text-anchor='middle' class='banner-role'>
+                Fullstack Developer • Informatics Engineering
+            </text>
+        </g>
+    </g>
+</svg>
