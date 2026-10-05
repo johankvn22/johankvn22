@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="./banner.svg" alt="Johan Kevin Banner" width="100%" />
+</div>
+
+<br/>
+
 <div align="left">
   <img src="https://komarev.com/ghpvc/?username=johankvn22&label=Visitor&color=007ec6&style=for-the-badge" alt="Visitor Count" />
 </div>
@@ -85,6 +91,6 @@ i’m currently working on Maxy Academy as Fullstack Developer.
 
 ---
 
-<p align="left">
-  <i>“Keep building, stay curious, and never stop learning.”</i>
-</p>
+<div align="center">
+  <img src="./footer.svg" alt="Johan Kevin Footer" width="100%" />
+</div>
