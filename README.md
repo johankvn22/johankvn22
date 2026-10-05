@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" alt="Johan Kevin Banner" width="100%" />
+  <img src="./banner-wave.svg" alt="Johan Kevin Banner" width="100%" />
 </div>
 
 <br/>
@@ -92,5 +92,5 @@ i’m currently working on Maxy Academy as Fullstack Developer.
 ---
 
 <div align="center">
-  <img src="./footer.svg" alt="Johan Kevin Footer" width="100%" />
+  <img src="./footer-wave.svg" alt="Johan Kevin Footer" width="100%" />
 </div>

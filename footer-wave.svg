@@ -1,0 +1,63 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 850 115' width='850' height='115' fill='none'>
+    <style>
+        @keyframes waveFloatBottom1 {
+            0% { transform: translateX(0px); }
+            50% { transform: translateX(-35px); }
+            100% { transform: translateX(0px); }
+        }
+        @keyframes waveFloatBottom2 {
+            0% { transform: translateX(0px); }
+            50% { transform: translateX(30px); }
+            100% { transform: translateX(0px); }
+        }
+        .footer-quote {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
+            font-style: italic;
+            font-weight: 500;
+            font-size: 15.5px;
+            letter-spacing: 0.3px;
+            fill: #0284C7;
+        }
+        @media (prefers-color-scheme: dark) {
+            .footer-quote {
+                fill: #38BDF8;
+            }
+        }
+    </style>
+
+    <defs>
+        <linearGradient id='footerOceanGrad' x1='0%' y1='0%' x2='100%' y2='0%'>
+            <stop offset='0%' stop-color='#0284C7'/>
+            <stop offset='60%' stop-color='#0EA5E9'/>
+            <stop offset='100%' stop-color='#38BDF8'/>
+        </linearGradient>
+
+        <linearGradient id='footerWaveGrad' x1='100%' y1='0%' x2='0%' y2='100%'>
+            <stop offset='0%' stop-color='#7DD3FC' stop-opacity='0.65'/>
+            <stop offset='50%' stop-color='#38BDF8' stop-opacity='0.5'/>
+            <stop offset='100%' stop-color='#BAE6FD' stop-opacity='0.3'/>
+        </linearGradient>
+
+        <clipPath id='bottomRoundClip'>
+            <rect width='850' height='115' rx='8' />
+        </clipPath>
+    </defs>
+
+    <!-- Centered Quote Above Wave -->
+    <text x='425' y='32' text-anchor='middle' class='footer-quote'>
+        “Keep building, stay curious, and never stop learning.”
+    </text>
+
+    <!-- Bottom Wave Shape with flat bottom and organic flowing top -->
+    <g clip-path='url(#bottomRoundClip)'>
+        <!-- Animated Wave Layer 1 (Back wave) -->
+        <g style='animation: waveFloatBottom1 8s ease-in-out infinite;'>
+            <path d='M -50 82 C 120 58 260 92 440 68 C 620 44 760 78 900 56 L 900 115 L -50 115 Z' fill='url(#footerWaveGrad)'/>
+        </g>
+
+        <!-- Animated Wave Layer 2 (Front main wave) -->
+        <g style='animation: waveFloatBottom2 10s ease-in-out infinite;'>
+            <path d='M -50 70 C 150 92 300 58 480 82 C 640 102 760 68 900 78 L 900 115 L -50 115 Z' fill='url(#footerOceanGrad)'/>
+        </g>
+    </g>
+</svg>

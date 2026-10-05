@@ -1,0 +1,80 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 850 185' width='850' height='185' fill='none'>
+    <style>
+        @keyframes waveFloat1 {
+            0% { transform: translateX(0px); }
+            50% { transform: translateX(-35px); }
+            100% { transform: translateX(0px); }
+        }
+        @keyframes waveFloat2 {
+            0% { transform: translateX(0px); }
+            50% { transform: translateX(30px); }
+            100% { transform: translateX(0px); }
+        }
+        @keyframes gentleGaze {
+            0%, 100% { opacity: 0.95; }
+            50% { opacity: 1; }
+        }
+        .banner-title {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
+            font-weight: 700;
+            font-size: 33px;
+            letter-spacing: -0.3px;
+        }
+        .banner-subtitle {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', Roboto, sans-serif;
+            font-weight: 400;
+            font-size: 15.5px;
+            letter-spacing: 0.6px;
+        }
+    </style>
+
+    <defs>
+        <!-- Ocean Blue Gradient matching reference -->
+        <linearGradient id='mainOceanGrad' x1='0%' y1='0%' x2='100%' y2='100%'>
+            <stop offset='0%' stop-color='#0284C7'/>
+            <stop offset='50%' stop-color='#0EA5E9'/>
+            <stop offset='100%' stop-color='#38BDF8'/>
+        </linearGradient>
+
+        <linearGradient id='waveGrad1' x1='0%' y1='0%' x2='100%' y2='0%'>
+            <stop offset='0%' stop-color='#38BDF8' stop-opacity='0.4'/>
+            <stop offset='50%' stop-color='#7DD3FC' stop-opacity='0.6'/>
+            <stop offset='100%' stop-color='#BAE6FD' stop-opacity='0.4'/>
+        </linearGradient>
+
+        <linearGradient id='waveGrad2' x1='100%' y1='0%' x2='0%' y2='100%'>
+            <stop offset='0%' stop-color='#0284C7' stop-opacity='0.45'/>
+            <stop offset='60%' stop-color='#38BDF8' stop-opacity='0.55'/>
+            <stop offset='100%' stop-color='#E0F2FE' stop-opacity='0.35'/>
+        </linearGradient>
+
+        <clipPath id='topRoundClip'>
+            <rect width='850' height='185' rx='8' />
+        </clipPath>
+    </defs>
+
+    <g clip-path='url(#topRoundClip)'>
+        <!-- Main Ocean Banner Base with flowing wave bottom -->
+        <path d='M 0 0 L 850 0 L 850 138 C 740 168 620 125 480 150 C 330 178 180 124 0 146 Z' fill='url(#mainOceanGrad)'/>
+
+        <!-- Animated Wave Layer 1 (Back wave) -->
+        <g style='animation: waveFloat1 8s ease-in-out infinite;'>
+            <path d='M -50 0 L 900 0 L 900 142 C 770 115 650 165 490 136 C 340 108 170 162 -50 134 Z' fill='url(#waveGrad1)'/>
+        </g>
+
+        <!-- Animated Wave Layer 2 (Middle wave) -->
+        <g style='animation: waveFloat2 10s ease-in-out infinite;'>
+            <path d='M -50 0 L 900 0 L 900 132 C 730 170 600 128 450 152 C 290 178 140 126 -50 155 Z' fill='url(#waveGrad2)'/>
+        </g>
+
+        <!-- Typography: Centered, Clean, Premium -->
+        <g style='animation: gentleGaze 5s ease-in-out infinite;'>
+            <text x='425' y='76' text-anchor='middle' fill='#FFFFFF' class='banner-title'>
+                Johan Kevin Kenneth Hutagalung
+            </text>
+            <text x='425' y='108' text-anchor='middle' fill='#F0F9FF' class='banner-subtitle'>
+                Fullstack Developer | Informatics Engineering
+            </text>
+        </g>
+    </g>
+</svg>
