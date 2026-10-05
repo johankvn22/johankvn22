@@ -53,7 +53,7 @@ i’m currently working on Maxy Academy as Fullstack Developer.
 
 ### GitHub Activity & Statistics
 <div align="left">
-  <img src="https://streak-stats.demolab.com/?user=johankvn22&theme=default&hide_border=true&v=oct5" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=johankvn22&theme=default&hide_border=true&v=oct5_boost" alt="GitHub Streak Stats" />
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=johankvn22&layout=compact&hide_border=true&theme=default" alt="Most Used Languages" />
 </div>
 
@@ -62,7 +62,7 @@ i’m currently working on Maxy Academy as Fullstack Developer.
 
 <div align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-trophies.devomb.com/?username=johankvn22&theme=flat&rank=-?&column=5&v=oct5" alt="GitHub Trophies" />
+    <img src="https://github-trophies.devomb.com/?username=johankvn22&theme=flat&rank=-?&column=5&v=oct5_boost" alt="GitHub Trophies" />
   </a>
 </div>
 
