@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner-real.svg" alt="Johan Kevin Banner" width="100%" />
+  <img src="./banner-clouds.svg" alt="Johan Kevin Banner" width="100%" />
 </div>
 
 <br/>
@@ -92,5 +92,7 @@ i’m currently working on Maxy Academy as Fullstack Developer.
 ---
 
 <div align="center">
-  <img src="./footer-real.svg" alt="Johan Kevin Footer" width="100%" />
+  <i>“Keep building, stay curious, and never stop learning.”</i>
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0093D0,100:0033A0&height=110&section=footer" width="100%" />
