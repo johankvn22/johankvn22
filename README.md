@@ -66,10 +66,12 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" title="GitHub" width="36" height="36"/> &nbsp;
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" title="VS Code" width="36" height="36"/> &nbsp;
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" alt="Android Studio" title="Android Studio" width="36" height="36"/> &nbsp;
+      <img src="https://raw.githubusercontent.com/johankvn22/johankvn22/main/icons/antigravity.png" alt="Google Antigravity" title="Google Antigravity" width="36" height="36"/> &nbsp;
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" alt="Composer" title="Composer" width="36" height="36"/> &nbsp;
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman" title="Postman" width="36" height="36"/> &nbsp;
       <img src="https://cdn.simpleicons.org/burpsuite/FF6633" alt="Burp Suite" title="Burp Suite" width="36" height="36"/> &nbsp;
       <img src="https://cdn.simpleicons.org/xendit/1772F8" alt="Xendit" title="Xendit" width="36" height="36"/> &nbsp;
+      <img src="https://raw.githubusercontent.com/johankvn22/johankvn22/main/icons/doku.svg" alt="DOKU" title="DOKU" width="36" height="36"/> &nbsp;
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" title="Figma" width="36" height="36"/>
     </td>
   </tr>
